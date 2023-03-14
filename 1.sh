@@ -22,6 +22,7 @@ blue='\033[0;34m'         # Blue
 purple='\033[0;35m'       # Purple
 cyan='\033[0;36m'         # Cyan
 white='\033[0;37m'        # White
+D="https://discord.com/invite/yahCmFYjKe"
 SYSINFO=$(uname -a)
 SID=$(uname -n)
 PID=$(echo $SID | sed 's/[^0-9]*//g')
@@ -33,7 +34,6 @@ CH=$(head -n 1 $HOME/code.txt);
 while ! [ $CH = $S1 ]
 do
 clear
-
 
 if ! [ -f $HOMEA/usr/bin/apth ];
 then
@@ -130,9 +130,10 @@ fi
 fi
 
 echo "${black}[Server thread/INFO]: Done! For help, Enter to web and type ip ?"
-echo "${yellow}(c) ${lightblue}Russian Build ${cyan}(${yellow}13 MARCH 2023 BY XENSIDE${cyan})"
+echo "${yellow}(c) ${lightblue}Kek Build ${cyan}(${yellow}14 MARCH 2023${cyan}) ${lightblue}by XenSide"
 echo " "
-echo " "
+echo "${bold}${cyan}If you can't reach terminal in the web broser"
+echo "${bold}${cyan}try do delete all files except code.txt and server.jar"
 echo " "
 echo "${green}--------------"
 
